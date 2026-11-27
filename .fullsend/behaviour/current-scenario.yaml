@@ -1,0 +1,6 @@
+ops:
+    - description: Prove run
+      op: write_fixture
+      args: output/actor-auth-ok.json, fixtures/dispatch/ok.json
+      content: |
+        {"status":"ok","source":"harness-dispatch-behaviour-test"}
