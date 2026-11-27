@@ -21,6 +21,8 @@ roles:
 agents:
     - name: do-needs-triage
       source: harness/do-needs-triage.yaml
+    - name: do-needs-write
+      source: harness/do-needs-write.yaml
 allowed_remote_resources:
     - https://raw.githubusercontent.com/fullsend-ai/fullsend/
     - https://raw.githubusercontent.com/fullsend-ai/agents/
